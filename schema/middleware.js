@@ -1,6 +1,5 @@
 const ObjectId = require('mongodb').ObjectId;
 const redis = require('redis').createClient();
-const { promisify } = require('util');
 
 const handleNotFound = (item, name) => {
     if(!item) {

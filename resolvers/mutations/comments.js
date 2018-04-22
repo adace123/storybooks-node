@@ -1,5 +1,5 @@
 const ObjectId = require('mongodb').ObjectId;
-const { loggedIn, requiresAuth } = require('../../middleware'); 
+const { loggedIn, requiresAuth } = require('../../schema/middleware'); 
 
 module.exports = {
       createComment: loggedIn()(async (_, { authorId, storyId, comment }, { Authors, Stories, Comments, signedInAuthor }) => {

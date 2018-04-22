@@ -1,9 +1,9 @@
 const axios = require('axios');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const { redis } = require('../../middleware');
 const ObjectId = require('mongodb').ObjectId;
-const { requiresAuth, checkBlacklistedToken } = require('../../middleware'); 
+const { redis } = require('../../schema/middleware');
+const { requiresAuth, checkBlacklistedToken } = require('../../schema/middleware'); 
 
 module.exports = {
       register: async (_, { author }, { Authors, signedInAuthor }) => {

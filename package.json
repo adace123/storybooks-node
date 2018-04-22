@@ -13,21 +13,18 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "graphql": "^0.13.2",
-    "graphql-errors": "^2.1.0",
     "graphql-tools": "^2.24.0",
     "jsonwebtoken": "^8.2.1",
     "mongodb": "^3.0.6",
     "mongoose": "^5.0.15",
     "npm": "^5.8.0",
     "redis": "^2.8.0",
-    "typescript": "^2.8.1",
-    "util": "^0.10.3"
+    "typescript": "^2.8.1"
   },
   "devDependencies": {
     "axios": "^0.18.0",
     "chai": "^4.1.2",
     "chai-http": "^4.0.0",
-    "chai-things": "^0.2.0",
     "faker": "^4.1.0",
     "mocha": "^5.1.1",
     "nodemon": "^1.17.3"

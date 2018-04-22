@@ -1,5 +1,5 @@
 const { ObjectId } = require('mongodb');
-const { requiresAuth } = require('../../middleware');
+const { requiresAuth } = require('../../schema/middleware');
 const visibilityOptions = {
   PUBLIC: "PUBLIC",
   PRIVATE: "PRIVATE",
